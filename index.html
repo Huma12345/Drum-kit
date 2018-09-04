@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+	<title>JavaScript Drum kit</title>
+
+	<!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Custom Styles -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/custom.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header></header>
+    <section>
+    	<div class="keys">
+        	<div data-key="65" class="key">
+            	<kbd>A</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="83" class="key">
+            	<kbd>S</kbd>
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="68" class="key">
+            	<kbd>D</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="70" class="key">
+            	<kbd>F</kbd>
+                <span class="sound">openhat</span>
+            </div>
+            <div data-key="71" class="key">
+            	<kbd>G</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="72" class="key">
+            	<kbd>H</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div data-key="74" class="key">
+            	<kbd>J</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="75" class="key">
+            	<kbd>K</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="76" class="key">
+            	<kbd>L</kbd>
+                <span class="sound">tink</span>
+            </div>
+		</div>
+        
+        <audio data-key="65" src="audio/67431^clap.mp3"></audio>
+        <audio data-key="83" src="audio/47965^BIGHIHAT.mp3"></audio>
+        <audio data-key="68" src="audio/13160^21KICK.mp3"></audio>
+        <audio data-key="70" src="audio/909_open_hat.wav"></audio>
+        <audio data-key="71" src="audio/Explosion+1.mp3"></audio>
+        <audio data-key="72" src="audio/16224^RIDECYMB.mp3"></audio>
+        <audio data-key="74" src="audio/26239^SNARE_3.mp3"></audio>
+        <audio data-key="75" src="audio/42997^tom.mp3"></audio>
+        <audio data-key="76" src="audio/22488^TINK.mp3"></audio>
+    </section>
+    <footer></footer>
+    
+	<!-- Bootstrap JavaScript -->
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+
+</body>
+</html>
